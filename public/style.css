@@ -1,0 +1,74 @@
+
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-color: #DDDDDD;
+  }
+
+
+
+main {
+    display: inline;
+
+}
+
+main * 
+{
+    float:left;
+}
+
+.noteform {
+
+    background-color: #f5f572;
+    padding:0em;
+    margin:1em;
+    box-shadow: 0.1em 0.1em 0.2em #555;
+    width:20em;
+    /*float:left;*/
+
+}
+
+.noteform[dataset-tag="1"] 
+{
+    background-color: #f50000
+}
+.noteform header *
+{
+    float:left;
+    
+}
+.noteform footer
+{
+    font-size:0.8em;
+}
+
+fieldset
+{
+    border:0px;
+}
+
+textarea
+{
+width:20em;
+
+}
+
+.new {
+
+    border 1px;
+    border-color: #AAAACC;
+    border-radius:0.5em;
+    background-color:#DDDDFF;
+    box-shadow: 0.1em 0.1em 0.1em #555;
+    padding:0.5em;
+    margin:0.5em;
+  
+}
+
+
+
+/* Respect de la consigne "Masquer les puces des listes" */
+
+li
+{
+    list-style-type: none;
+}
